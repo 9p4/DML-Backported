@@ -30,6 +30,8 @@ import net.minecraft.entity.attribute.EntityAttribute
 import net.minecraft.entity.attribute.EntityAttributeModifier
 import net.minecraft.item.ItemStack
 import net.minecraft.text.Text
+import net.minecraft.text.LiteralText
+import net.minecraft.text.TranslatableText
 import net.minecraft.util.ActionResult
 import net.minecraft.util.Identifier
 import net.minecraft.util.TypedActionResult
@@ -67,9 +69,9 @@ abstract class ModularEffect<T: ModularEffectTriggerPayload>(
     }
 
     open val name = if (id.namespace == MOD_ID) {
-        Text.translatable(modIdFormat)
+        TranslatableText(modIdFormat)
     } else {
-        Text.translatable(otherModIdFormat)
+        TranslatableText(otherModIdFormat)
     }
 
     lateinit var entityAttribute:  EntityAttribute

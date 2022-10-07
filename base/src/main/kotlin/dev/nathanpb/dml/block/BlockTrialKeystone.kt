@@ -35,6 +35,8 @@ import net.minecraft.block.entity.BlockEntityTicker
 import net.minecraft.block.entity.BlockEntityType
 import net.minecraft.entity.player.PlayerEntity
 import net.minecraft.text.Text
+import net.minecraft.text.LiteralText
+import net.minecraft.text.TranslatableText
 import net.minecraft.util.ActionResult
 import net.minecraft.util.Hand
 import net.minecraft.util.hit.BlockHitResult
@@ -76,10 +78,10 @@ class BlockTrialKeystone : Block(
                             } catch (ex: TrialKeystoneIllegalStartException) {
                                 return ActionResult.PASS
                             } catch (ex: TrialKeystoneWrongTerrainException) {
-                                player.sendMessage(Text.translatable("chat.$MOD_ID.trial_wrong_terrain"), false)
+                                player.sendMessage(TranslatableText("chat.$MOD_ID.trial_wrong_terrain"), false)
                             }
                         } else {
-                            player.sendMessage(Text.translatable("chat.${MOD_ID}.trial_no_recipe"), false)
+                            player.sendMessage(TranslatableText("chat.${MOD_ID}.trial_no_recipe"), false)
                         }
                         return ActionResult.FAIL
                     }

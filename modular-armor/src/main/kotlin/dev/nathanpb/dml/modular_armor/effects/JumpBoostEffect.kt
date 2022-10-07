@@ -29,6 +29,8 @@ import dev.nathanpb.dml.modular_armor.core.ModularEffectContext
 import net.minecraft.entity.effect.StatusEffectInstance
 import net.minecraft.entity.effect.StatusEffects
 import net.minecraft.text.Text
+import net.minecraft.text.LiteralText
+import net.minecraft.text.TranslatableText
 
 class JumpBoostEffect : StatusEffectLikeEffect(
     identifier("jump_boost"),
@@ -37,7 +39,7 @@ class JumpBoostEffect : StatusEffectLikeEffect(
     EffectStackOption.PRIORITIZE_GREATER
 ) {
 
-    override val name = Text.translatable("effect.minecraft.jump_boost")
+    override val name = TranslatableText("effect.minecraft.jump_boost")
 
     override fun createEffectInstance(context: ModularEffectContext): StatusEffectInstance {
         return StatusEffectInstance(StatusEffects.JUMP_BOOST, 20 * 17, context.tier.ordinal / 2, false, false)

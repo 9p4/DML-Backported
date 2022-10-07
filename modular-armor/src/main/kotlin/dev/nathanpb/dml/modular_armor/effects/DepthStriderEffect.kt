@@ -31,6 +31,8 @@ import dev.nathanpb.dml.modular_armor.core.ModularEffectContext
 import dev.nathanpb.dml.modular_armor.core.ModularEffectTriggerPayload
 import net.minecraft.entity.effect.StatusEffectInstance
 import net.minecraft.text.Text
+import net.minecraft.text.LiteralText
+import net.minecraft.text.TranslatableText
 
 class DepthStriderEffect : StatusEffectLikeEffect(
     identifier("depth_strider"),
@@ -39,7 +41,7 @@ class DepthStriderEffect : StatusEffectLikeEffect(
     EffectStackOption.PRIORITIZE_GREATER
 ) {
 
-    override val name = Text.translatable("effect.${MOD_ID}.depth_strider")
+    override val name = TranslatableText("effect.${MOD_ID}.depth_strider")
 
     override fun createEffectInstance(context: ModularEffectContext): StatusEffectInstance {
         return StatusEffectInstance(DEPTH_STRIDER_EFFECT, 16 * 20, context.tier.ordinal / 2, true, false)

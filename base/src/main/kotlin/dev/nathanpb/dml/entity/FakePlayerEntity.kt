@@ -21,16 +21,14 @@ package dev.nathanpb.dml.entity
 
 import com.mojang.authlib.GameProfile
 import dev.nathanpb.dml.MOD_ID
-import net.minecraft.network.encryption.PlayerPublicKey
 import net.minecraft.server.network.ServerPlayerEntity
 import net.minecraft.server.world.ServerWorld
 import java.util.*
 
-class FakePlayerEntity(world: ServerWorld, publicKey: PlayerPublicKey?) : ServerPlayerEntity(
+class FakePlayerEntity(world: ServerWorld) : ServerPlayerEntity(
     world.server,
     world,
-    GameProfile(UUID, "${MOD_ID}_fake_player"),
-    publicKey
+    GameProfile(UUID, "${MOD_ID}_fake_player")
 ) {
     companion object {
         val UUID: UUID = java.util.UUID.randomUUID()

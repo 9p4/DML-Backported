@@ -31,6 +31,8 @@ import net.minecraft.entity.attribute.EntityAttributeModifier
 import net.minecraft.entity.effect.StatusEffectInstance
 import net.minecraft.entity.effect.StatusEffects
 import net.minecraft.text.Text
+import net.minecraft.text.LiteralText
+import net.minecraft.text.TranslatableText
 
 class NightVisionEffect : StatusEffectLikeEffect(
     identifier("night_vision"),
@@ -39,7 +41,7 @@ class NightVisionEffect : StatusEffectLikeEffect(
     EffectStackOption.RANDOMIZE
 ) {
 
-    override val name = Text.translatable("effect.minecraft.night_vision")
+    override val name = TranslatableText("effect.minecraft.night_vision")
 
     override fun createEffectInstance(context: ModularEffectContext): StatusEffectInstance {
         return StatusEffectInstance(StatusEffects.NIGHT_VISION, 16 * 20, 0, true, false)

@@ -29,6 +29,8 @@ import net.minecraft.screen.ScreenHandler;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.server.world.ServerChunkManager;
 import net.minecraft.text.Text;
+import net.minecraft.text.LiteralText;
+import net.minecraft.text.TranslatableText;
 import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.util.math.Direction;
@@ -371,7 +373,7 @@ public class SimulationChamberEntity extends BlockEntity implements ImplementedI
 
     @Override
     public Text getDisplayName() {
-        return Text.of("Simulation Chamber");
+        return new LiteralText("Simulation Chamber");
     }
 
     @Nullable

@@ -29,6 +29,8 @@ import net.minecraft.item.ItemStack
 import net.minecraft.state.StateManager
 import net.minecraft.state.property.Properties
 import net.minecraft.text.Text
+import net.minecraft.text.LiteralText
+import net.minecraft.text.TranslatableText
 import net.minecraft.util.Formatting
 import net.minecraft.util.math.BlockPos
 import net.minecraft.util.math.Direction
@@ -54,8 +56,8 @@ class BlockCafeteria : HorizontalFacingBlock(
         options: TooltipContext?
     ) {
         if(world != null) {
-        RenderUtils.getTextWithDefaultTextColor(Text.translatable("tooltip.${MOD_ID}.cafeteria.joinus"), world as World)
-            .append(Text.of("https://discord.gg/G4PjhEf").copy().formatted(Formatting.WHITE))?.let { tooltip.add(it) }
+        RenderUtils.getTextWithDefaultTextColor(TranslatableText("tooltip.${MOD_ID}.cafeteria.joinus"), world as World)
+            .append(LiteralText("https://discord.gg/G4PjhEf").copy().formatted(Formatting.WHITE))?.let { tooltip.add(it) }
         }
     }
 

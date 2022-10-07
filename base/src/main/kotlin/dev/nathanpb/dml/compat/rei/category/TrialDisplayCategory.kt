@@ -40,6 +40,7 @@ import net.minecraft.item.ItemStack
 import net.minecraft.item.Items
 import net.minecraft.text.MutableText
 import net.minecraft.text.Text
+import net.minecraft.text.TranslatableText
 import net.minecraft.util.Identifier
 
 class TrialDisplayCategory: DisplayCategory<TrialRecipeDisplay> {
@@ -50,7 +51,7 @@ class TrialDisplayCategory: DisplayCategory<TrialRecipeDisplay> {
 
     override fun getCategoryIdentifier(): CategoryIdentifier<TrialRecipeDisplay> = ReiPlugin.TRIAL_CATEGORY
 
-    override fun getTitle(): MutableText = Text.translatable("rei.$MOD_ID.category.trial")
+    override fun getTitle(): MutableText = TranslatableText("rei.$MOD_ID.category.trial")
 
 
     override fun setupDisplay(recipeDisplay: TrialRecipeDisplay, bounds: Rectangle): MutableList<Widget> {

@@ -36,6 +36,8 @@ import net.minecraft.entity.player.PlayerInventory
 import net.minecraft.inventory.SimpleInventory
 import net.minecraft.screen.ScreenHandlerContext
 import net.minecraft.text.Text
+import net.minecraft.text.LiteralText
+import net.minecraft.text.TranslatableText
 
 class MatterCondenserScreenHandler(
     syncId: Int,
@@ -61,14 +63,14 @@ class MatterCondenserScreenHandler(
         root.insets = Insets.ROOT_PANEL
 
         val slots = WPlainPanel()
-        val armorSlot = WTooltippedItemSlot.of(blockInventory, 0, Text.translatable("gui.${MOD_ID}.glitch_armor_only")).setFilter {
+        val armorSlot = WTooltippedItemSlot.of(blockInventory, 0, TranslatableText("gui.${MOD_ID}.glitch_armor_only")).setFilter {
             it.item is ItemModularGlitchArmor && !ModularArmorData(it).tier().isMaxTier()
         }
 
         slots.add(armorSlot, 2*18, 2*18)
 
         val matterSlots = (1..6).map {
-            WTooltippedItemSlot.of(blockInventory, it, Text.translatable("gui.${MOD_ID}.pristine_matter_only")).setFilter { stack ->
+            WTooltippedItemSlot.of(blockInventory, it, TranslatableText("gui.${MOD_ID}.pristine_matter_only")).setFilter { stack ->
                 stack.item is ItemPristineMatter
             }
         }

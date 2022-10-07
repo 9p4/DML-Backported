@@ -37,6 +37,7 @@ import net.minecraft.client.MinecraftClient
 import net.minecraft.item.ItemStack
 import net.minecraft.text.MutableText
 import net.minecraft.text.Text
+import net.minecraft.text.TranslatableText
 import net.minecraft.util.Hand
 import net.minecraft.util.Identifier
 
@@ -48,7 +49,7 @@ class CrushingDisplayCategory: DisplayCategory<CrushingRecipeDisplay> {
 
     override fun getIcon(): EntryStack<ItemStack> = EntryStacks.of(ITEM_SOOT_REDSTONE)
 
-    override fun getTitle(): MutableText = Text.translatable("rei.${MOD_ID}.category.crushing")
+    override fun getTitle(): MutableText = TranslatableText("rei.${MOD_ID}.category.crushing")
 
 
     override fun setupDisplay(recipeDisplay: CrushingRecipeDisplay, bounds: Rectangle): MutableList<Widget> {

@@ -38,6 +38,7 @@ import net.minecraft.entity.LivingEntity
 import net.minecraft.item.ItemStack
 import net.minecraft.text.MutableText
 import net.minecraft.text.Text
+import net.minecraft.text.TranslatableText
 import net.minecraft.util.Identifier
 import net.minecraft.util.registry.Registry
 
@@ -49,7 +50,7 @@ class LootFabricatorDisplayCategory: DisplayCategory<LootFabricatorRecipeDisplay
 
     override fun getIcon(): EntryStack<ItemStack> = EntryStacks.of(BLOCK_LOOT_FABRICATOR)
 
-    override fun getTitle(): MutableText = Text.translatable("rei.$MOD_ID.category.loot_fabricator")
+    override fun getTitle(): MutableText = TranslatableText("rei.$MOD_ID.category.loot_fabricator")
 
 
     override fun setupDisplay(recipeDisplay: LootFabricatorRecipeDisplay, bounds: Rectangle): MutableList<Widget> {

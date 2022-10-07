@@ -50,6 +50,8 @@ import net.minecraft.util.Rarity
 import net.minecraft.util.TypedActionResult
 import net.minecraft.util.registry.Registry
 import net.minecraft.world.World
+import net.minecraft.text.LiteralText
+import net.minecraft.text.TranslatableText
 import kotlin.math.roundToInt
 
 class ItemModularGlitchArmor(slot: EquipmentSlot, settings: Settings) : ArmorItem(
@@ -90,16 +92,16 @@ class ItemModularGlitchArmor(slot: EquipmentSlot, settings: Settings) : ArmorIte
         if (world?.isClient == true && stack != null && tooltip != null) {
             val data = ModularArmorData(stack)
             if (!data.tier().isMaxTier()) {
-                RenderUtils.getTextWithDefaultTextColor(Text.translatable("tooltip.${MOD_ID}.data_amount.1"), world)
-                    .append(Text.translatable("tooltip.${MOD_ID}.data_amount.2", data.dataAmount, ModularArmorData.amountRequiredTo(data.tier().nextTierOrCurrent()))
+                RenderUtils.getTextWithDefaultTextColor(TranslatableText("tooltip.${MOD_ID}.data_amount.1"), world)
+                    .append(TranslatableText("tooltip.${MOD_ID}.data_amount.2", data.dataAmount, ModularArmorData.amountRequiredTo(data.tier().nextTierOrCurrent()))
                         .formatted(Formatting.WHITE))?.let { tooltip.add(it) }
             }
-            RenderUtils.getTextWithDefaultTextColor(Text.translatable("tooltip.${MOD_ID}.tier.1"), world)
-                .append(Text.translatable("tooltip.${MOD_ID}.tier.2", data.tier().text))?.let { tooltip.add(it) }
+            RenderUtils.getTextWithDefaultTextColor(TranslatableText("tooltip.${MOD_ID}.tier.1"), world)
+                .append(TranslatableText("tooltip.${MOD_ID}.tier.2", data.tier().text))?.let { tooltip.add(it) }
 
             MinecraftClient.getInstance().player?.let { player ->
                 if (player.isCreative) {
-                    tooltip.add(Text.translatable("tooltip.${MOD_ID}.cheat").formatted(Formatting.GRAY, Formatting.ITALIC))
+                    tooltip.add(TranslatableText("tooltip.${MOD_ID}.cheat").formatted(Formatting.GRAY, Formatting.ITALIC))
                 }
             }
         }

@@ -26,6 +26,8 @@ import dev.nathanpb.dml.enums.EntityCategory
 import dev.nathanpb.dml.identifier
 import net.minecraft.entity.damage.DamageSource
 import net.minecraft.text.Text
+import net.minecraft.text.LiteralText
+import net.minecraft.text.TranslatableText
 
 class FeatherFallingEffect : ProtectionLikeEffect(
     identifier("feather_falling"),
@@ -33,7 +35,7 @@ class FeatherFallingEffect : ProtectionLikeEffect(
     config.glitchArmor.costs::featherFalling
 ) {
 
-    override val name = Text.translatable("enchantment.minecraft.feather_falling")
+    override val name = TranslatableText("enchantment.minecraft.feather_falling")
 
     override fun protectsAgainst(source: DamageSource) = source == DamageSource.FALL
 

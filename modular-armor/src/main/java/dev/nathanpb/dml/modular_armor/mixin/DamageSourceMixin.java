@@ -28,6 +28,8 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.damage.DamageSource;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.text.Text;
+import net.minecraft.text.LiteralText;
+import net.minecraft.text.TranslatableText;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -54,7 +56,7 @@ public class DamageSourceMixin {
                     .stream()
                     .anyMatch((context) -> effect.getCategory() == context.getDataModel().getCategory() && effect.acceptTier(context.getTier()));
                 if (any) {
-                    cir.setReturnValue(Text.translatable(
+                    cir.setReturnValue(new TranslatableText(
                         "death.dml-refabricated.starvedWithPlenty",
                         entity.getDisplayName()
                     ));

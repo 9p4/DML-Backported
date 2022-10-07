@@ -24,6 +24,8 @@ import dev.nathanpb.dml.modular_armor.core.ModularEffect
 import dev.nathanpb.dml.utils.RenderUtils
 import io.github.cottonmc.cotton.gui.widget.WToggleButton
 import net.minecraft.text.Text
+import net.minecraft.text.LiteralText
+import net.minecraft.text.TranslatableText
 import net.minecraft.world.World
 import kotlin.properties.Delegates
 
@@ -34,7 +36,7 @@ class WModularEffectToggle(
         setLabel(
             value?.name?.let {
                 RenderUtils.getTextWithDefaultTextColor(it, world)
-            } ?: Text.of("")
+            } ?: LiteralText("")
         )
     }
 }

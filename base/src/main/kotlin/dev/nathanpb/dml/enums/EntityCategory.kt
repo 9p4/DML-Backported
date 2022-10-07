@@ -27,6 +27,7 @@ import net.minecraft.entity.EntityType
 import net.minecraft.item.Item
 import net.minecraft.tag.TagKey
 import net.minecraft.text.Text
+import net.minecraft.text.TranslatableText
 import net.minecraft.util.registry.Registry
 
 
@@ -43,5 +44,5 @@ enum class EntityCategory(val tagKey: TagKey<EntityType<*>>, var exchangeRatio: 
     END(TagKey.of(Registry.ENTITY_TYPE_KEY, identifier("end_mobs")), config.lootFabricator.endExchangeRatio, ::ITEM_DATA_MODEL_END);
 
 
-    val displayName = Text.translatable("mobcategory.${MOD_ID}.${tagKey.id.path}")
+    val displayName = TranslatableText("mobcategory.${MOD_ID}.${tagKey.id.path}")
 }
