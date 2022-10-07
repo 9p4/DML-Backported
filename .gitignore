@@ -16,3 +16,9 @@ out/
 run/
 runServer/
 minecraft/
+
+.classpath
+.project
+.settings
+
+bin/
