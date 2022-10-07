@@ -79,8 +79,8 @@ public class LivingEntityMixin implements ILivingEntityReiStateAccessor {
     }
 
 
-    @Inject(at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/LivingEntity;playEquipSound(Lnet/minecraft/item/ItemStack;)V"), method = "onEquipStack", cancellable = true)
-    public void onEquip(EquipmentSlot slot, ItemStack oldStack, ItemStack newStack, CallbackInfo ci) {
+    @Inject(at = @At(value = "INVOKE", target = "Lnet/minecraft/entity/LivingEntity;playSound(Lnet/minecraft/sound/SoundEvent;FF)V"), method = "onEquipStack", cancellable = true)
+	public void onEquip(ItemStack stack, CallbackInfo ci) {
         if (isDmlRefIsInReiScreen()) {
             ci.cancel();
         }

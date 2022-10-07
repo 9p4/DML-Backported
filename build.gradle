@@ -1,9 +1,10 @@
 plugins {
-    id 'fabric-loom' version '0.12-SNAPSHOT'
+    id 'fabric-loom' version '1.0-SNAPSHOT'
     id 'maven-publish'
     id "org.jetbrains.kotlin.jvm" version "1.6.0"
     id "com.matthewprenger.cursegradle" version '1.4.0'
     id "com.modrinth.minotaur" version '2.3.1'
+	id 'org.checkerframework' version '0.6.17'
 }
 
 sourceCompatibility = JavaVersion.VERSION_17
@@ -44,6 +45,7 @@ dependencies {
 allprojects {
     apply plugin: 'fabric-loom'
     apply plugin: 'org.jetbrains.kotlin.jvm'
+	apply plugin: 'org.checkerframework'
 
     version = project.mod_version
 
