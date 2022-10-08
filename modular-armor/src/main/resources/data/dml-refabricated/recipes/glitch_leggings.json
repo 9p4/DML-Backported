@@ -4,9 +4,9 @@
     "item": "minecraft:netherite_leggings"
   },
   "addition": {
-    "item": "dml-refabricated:glitch_ingot"
+    "item": "dml-backported:glitch_ingot"
   },
   "result": {
-    "item": "dml-refabricated:glitch_leggings"
+    "item": "dml-backported:glitch_leggings"
   }
 }

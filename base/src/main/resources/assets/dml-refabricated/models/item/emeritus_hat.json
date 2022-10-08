@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [96, 32],
 	"textures": {
-		"0": "dml-refabricated:armor/emeritus_mask",
-		"1": "dml-refabricated:armor/emeritus_hat",
-		"particle": "dml-refabricated:armor/emeritus_mask"
+		"0": "dml-backported:armor/emeritus_mask",
+		"1": "dml-backported:armor/emeritus_hat",
+		"particle": "dml-backported:armor/emeritus_mask"
 	},
 	"elements": [
 		{

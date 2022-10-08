@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "dml-refabricated-base",
+  "id": "dml-backported-base",
   "version": "${version}",
-  "name": "DML: Refabricated - Base",
-  "description": "Deep Mob Learning: Refabricated's core features and systems.",
-  "authors": ["NathanPB", "Luligabi", "IterationFunk"],
+  "name": "DML: Backported - Base",
+  "description": "Deep Mob Learning: Backported's core features and systems.",
+  "authors": ["NathanPB", "Luligabi", "IterationFunk", "9p4"],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-refabricated",
-    "repo": "https://github.com/CafeteriaGuild/DeepMobLearning-Refabricated",
-    "issues": "https://github.com/CafeteriaGuild/DeepMobLearning-Refabricated/issues"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-backported",
+    "repo": "https://github.com/9p4/DML-Backported",
+    "issues": "https://github.com/9p4/DML-Backported/issues"
   },
   "license": "LGPL-v3",
   "environment": "*",
@@ -17,14 +17,14 @@
     "client": ["dev.nathanpb.dml.DeepMobLearningKt::initClient"],
     "rei_client": ["dev.nathanpb.dml.compat.rei.ReiPlugin"]
   },
-  "mixins": ["mixins.dml-refabricated-base.json"],
+  "mixins": ["mixins.dml-backported-base.json"],
   "depends": {
-    "dml-refabricated": "${version}"
+    "dml-backported": "${version}"
   },
   "suggests": {},
   "custom": {
     "modmenu": {
-      "parent": "dml-refabricated"
+      "parent": "dml-backported"
     }
   }
 }

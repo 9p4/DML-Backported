@@ -1,14 +1,14 @@
 {
   "schemaVersion": 1,
-  "id": "dml-refabricated",
+  "id": "dml-backported",
   "version": "${version}",
-  "name": "Deep Mob Learning: Refabricated",
+  "name": "Deep Mob Learning: Backported",
   "description": "A revitalized version of IterationFunk's server friendly mob loot acquisition mod, now on Fabric!",
-  "authors": ["NathanPB", "Luligabi", "IterationFunk"],
+  "authors": ["NathanPB", "Luligabi", "IterationFunk", "9p4"],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-refabricated",
-    "repo": "https://github.com/CafeteriaGuild/DeepMobLearning-Refabricated",
-    "issues": "https://github.com/CafeteriaGuild/DeepMobLearning-Refabricated/issues"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-backported",
+    "repo": "https://github.com/9p4/DML-Backported",
+    "issues": "https://github.com/9p4/DML-Backported/issues"
   },
   "license": "LGPL-v3",
   "environment": "*",

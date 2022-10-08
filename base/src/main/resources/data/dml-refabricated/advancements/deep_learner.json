@@ -1,23 +1,23 @@
 {
   "display": {
     "icon": {
-      "item": "dml-refabricated:deep_learner"
+      "item": "dml-backported:deep_learner"
     },
     "title": {
-      "translate": "advancements.dml-refabricated.deep_learner"
+      "translate": "advancements.dml-backported.deep_learner"
     },
     "description": {
-      "translate": "advancements.dml-refabricated.deep_learner.description"
+      "translate": "advancements.dml-backported.deep_learner.description"
     }
   },
-  "parent": "dml-refabricated:data_models",
+  "parent": "dml-backported:data_models",
   "criteria": {
     "checkInv": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": ["dml-refabricated:deep_learner"]
+            "items": ["dml-backported:deep_learner"]
           }
         ]
       }

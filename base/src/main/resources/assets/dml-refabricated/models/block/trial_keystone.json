@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "dml-refabricated:block/trial_keystone_side",
-		"2": "dml-refabricated:block/trial_keystone_container_top",
-		"3": "dml-refabricated:block/color_stripes",
-		"particle": "dml-refabricated:block/trial_keystone_side"
+		"1": "dml-backported:block/trial_keystone_side",
+		"2": "dml-backported:block/trial_keystone_container_top",
+		"3": "dml-backported:block/color_stripes",
+		"particle": "dml-backported:block/trial_keystone_side"
 	},
 	"elements": [
 		{

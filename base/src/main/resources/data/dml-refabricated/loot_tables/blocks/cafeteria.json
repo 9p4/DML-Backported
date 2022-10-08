@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dml-refabricated:cafeteria"
+          "name": "dml-backported:cafeteria"
         }
       ],
       "conditions": [

@@ -1,4 +1,4 @@
 {
-  "parent": "dml-refabricated:block/loot_fabricator"
+  "parent": "dml-backported:block/loot_fabricator"
 }
 

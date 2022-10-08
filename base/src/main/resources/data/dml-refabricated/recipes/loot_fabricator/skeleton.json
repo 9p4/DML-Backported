@@ -1,7 +1,7 @@
 {
-  "type": "dml-refabricated:loot_fabricator",
+  "type": "dml-backported:loot_fabricator",
   "input": {
-    "item": "dml-refabricated:pristine_matter_skeleton"
+    "item": "dml-backported:pristine_matter_skeleton"
   },
   "category": "SKELETON"
 }

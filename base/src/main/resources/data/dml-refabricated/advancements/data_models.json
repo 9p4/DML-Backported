@@ -1,23 +1,23 @@
 {
   "display": {
     "icon": {
-      "item": "dml-refabricated:data_model_overworld"
+      "item": "dml-backported:data_model_overworld"
     },
     "title": {
-      "translate": "advancements.dml-refabricated.data_models"
+      "translate": "advancements.dml-backported.data_models"
     },
     "description": {
-      "translate": "advancements.dml-refabricated.data_models.description"
+      "translate": "advancements.dml-backported.data_models.description"
     }
   },
-  "parent": "dml-refabricated:blank_data_model",
+  "parent": "dml-backported:blank_data_model",
   "criteria": {
     "checkInv": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "tag": "dml-refabricated:attuned_data_models"
+            "tag": "dml-backported:attuned_data_models"
           }
         ]
       }

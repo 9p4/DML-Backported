@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "dml-refabricated:item/physically_condensed_matrix_fragment"
+    "layer0": "dml-backported:item/physically_condensed_matrix_fragment"
   }
 }

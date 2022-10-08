@@ -1,23 +1,23 @@
 {
   "display": {
     "icon": {
-      "item": "dml-refabricated:data_model"
+      "item": "dml-backported:data_model"
     },
     "title": {
-      "translate": "advancements.dml-refabricated.blank_data_model"
+      "translate": "advancements.dml-backported.blank_data_model"
     },
     "description": {
-      "translate": "advancements.dml-refabricated.blank_data_model.description"
+      "translate": "advancements.dml-backported.blank_data_model.description"
     }
   },
-  "parent": "dml-refabricated:root",
+  "parent": "dml-backported:root",
   "criteria": {
     "checkInv": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": ["dml-refabricated:data_model"]
+            "items": ["dml-backported:data_model"]
           }
         ]
       }

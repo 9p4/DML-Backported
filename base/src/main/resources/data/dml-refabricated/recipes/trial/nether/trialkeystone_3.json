@@ -1,5 +1,5 @@
 {
-  "type": "dml-refabricated:trial_keystone",
+  "type": "dml-backported:trial_keystone",
   "tier": 3,
   "category": "NETHER",
   "spawnRates": {
@@ -9,11 +9,11 @@
   },
   "rewards": [
     {
-      "item": "dml-refabricated:pristine_matter_nether",
+      "item": "dml-backported:pristine_matter_nether",
       "count": 8
     },
     {
-      "item": "dml-refabricated:physically_condensed_matrix_fragment",
+      "item": "dml-backported:physically_condensed_matrix_fragment",
       "count": 2
     }
   ]

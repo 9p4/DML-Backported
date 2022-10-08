@@ -1,5 +1,5 @@
 {
   "variants": {
-    "": { "model": "dml-refabricated:block/trial_keystone" }
+    "": { "model": "dml-backported:block/trial_keystone" }
   }
 }

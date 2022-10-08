@@ -10,20 +10,20 @@
       "item": "minecraft:gold_ingot"
     },
     "M": {
-      "tag": "dml-refabricated:pristine_matter"
+      "tag": "dml-backported:pristine_matter"
     },
     "C": {
-      "item": "dml-refabricated:machine_casing"
+      "item": "dml-backported:machine_casing"
     },
     "F": {
-      "item": "dml-refabricated:physically_condensed_matrix_fragment"
+      "item": "dml-backported:physically_condensed_matrix_fragment"
     },
     "S": {
       "item": "minecraft:netherite_scrap"
     }
   },
   "result": {
-    "item": "dml-refabricated:matter_condenser",
+    "item": "dml-backported:matter_condenser",
     "count": 1
   }
 }

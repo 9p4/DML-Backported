@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "dml-refabricated:block/machine_casing_outer",
-		"2": "dml-refabricated:block/machine_casing_inner",
-		"3": "dml-refabricated:item/glitch_heart",
-		"particle": "dml-refabricated:block/machine_casing_inner"
+		"1": "dml-backported:block/machine_casing_outer",
+		"2": "dml-backported:block/machine_casing_inner",
+		"3": "dml-backported:item/glitch_heart",
+		"particle": "dml-backported:block/machine_casing_inner"
 	},
 	"elements": [
 		{

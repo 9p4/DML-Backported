@@ -4,11 +4,11 @@
   "version": "${version}",
   "name": "Deep Mob Learning: Simulacrum",
   "description": "Optional module adding the Simulation Chamber. Requires external energy producing mod.",
-  "authors": ["ProjectET", "NathanPB", "Luligabi", "IterationFunk"],
+  "authors": ["ProjectET", "NathanPB", "Luligabi", "IterationFunk", "9p4"],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-simulacrum",
-    "repo": "https://github.com/CafeteriaGuild/DeepMobLearning-Refabricated",
-    "issues": "https://github.com/CafeteriaGuild/DeepMobLearning-Refabricated/issues"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-backported",
+    "repo": "https://github.com/9p4/DML-Backported",
+    "issues": "https://github.com/9p4/DML-Backported/issues"
   },
   "license": "MIT",
   "icon": "assets/dmlsimulacrum/icon.png",
@@ -28,13 +28,13 @@
     "fabricloader": ">=0.11.3",
     "fabric": ">=0.43.1",
     "minecraft": "1.18.2",
-    "dml-refabricated": "*",
-    "dml-refabricated-base": "*",
+    "dml-backported": "*",
+    "dml-backported-base": "*",
     "cloth-config2": ">=6.0.42"
   },
   "custom": {
     "modmenu": {
-      "parent": "dml-refabricated"
+      "parent": "dml-backported"
     }
   }
 }

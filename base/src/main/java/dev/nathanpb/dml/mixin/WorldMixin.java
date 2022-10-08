@@ -3,20 +3,20 @@ package dev.nathanpb.dml.mixin;
 /*
  * Copyright (C) 2020 Nathan P. Bombana, IterationFunk
  *
- * This file is part of Deep Mob Learning: Refabricated.
+ * This file is part of Deep Mob Learning: Backported.
  *
- * Deep Mob Learning: Refabricated is free software: you can redistribute it and/or modify
+ * Deep Mob Learning: Backported is free software: you can redistribute it and/or modify
  *  it under the terms of the GNU Lesser General Public License as published by
  * the Free Software Foundation, either version 3 of the License, or
  *  (at your option) any later version.
  *
- * Deep Mob Learning: Refabricated is distributed in the hope that it will be useful,
+ * Deep Mob Learning: Backported is distributed in the hope that it will be useful,
  * but WITHOUT ANY WARRANTY; without even the implied warranty of
  * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
  * GNU Lesser General Public License for more details.
  *
  * You should have received a copy of the GNU Lesser General Public License
- * along with Deep Mob Learning: Refabricated.  If not, see <https://www.gnu.org/licenses/>.
+ * along with Deep Mob Learning: Backported.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 import dev.nathanpb.dml.accessor.ITrialWorldPersistenceAccessor;
@@ -29,10 +29,10 @@ import java.util.List;
 
 @Mixin(World.class)
 public class WorldMixin implements ITrialWorldPersistenceAccessor {
-    private final List<Trial> dmlRefabricatedRunningTrials = new ArrayList<>();
+    private final List<Trial> dmlBackportedRunningTrials = new ArrayList<>();
 
     @Override
     public List<Trial> getRunningTrials() {
-        return dmlRefabricatedRunningTrials;
+        return dmlBackportedRunningTrials;
     }
 }

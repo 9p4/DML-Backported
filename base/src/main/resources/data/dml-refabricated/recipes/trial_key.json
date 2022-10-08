@@ -16,11 +16,11 @@
       "item": "minecraft:iron_nugget"
     },
     "R": {
-      "item": "dml-refabricated:soot_redstone"
+      "item": "dml-backported:soot_redstone"
     }
   },
   "result": {
-    "item": "dml-refabricated:trial_key",
+    "item": "dml-backported:trial_key",
     "count": 1
   }
 }

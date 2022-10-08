@@ -7,7 +7,7 @@
   ],
   "key": {
     "P": {
-      "item": "dml-refabricated:soot_plate"
+      "item": "dml-backported:soot_plate"
     },
     "G": {
       "item": "minecraft:gold_ingot"
@@ -16,14 +16,14 @@
       "item": "minecraft:diamond_block"
     },
     "C": {
-      "item": "dml-refabricated:machine_casing"
+      "item": "dml-backported:machine_casing"
     },
     "M": {
-      "tag": "dml-refabricated:pristine_matter"
+      "tag": "dml-backported:pristine_matter"
     }
   },
   "result": {
-    "item": "dml-refabricated:loot_fabricator",
+    "item": "dml-backported:loot_fabricator",
     "count": 1
   }
 }

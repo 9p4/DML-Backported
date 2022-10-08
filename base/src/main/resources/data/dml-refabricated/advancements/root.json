@@ -1,15 +1,15 @@
 {
   "display": {
     "icon": {
-      "item": "dml-refabricated:soot_redstone"
+      "item": "dml-backported:soot_redstone"
     },
     "title": {
-      "translate": "itemGroup.dml-refabricated.tab_dml-refabricated"
+      "translate": "itemGroup.dml-backported.tab_dml-backported"
     },
     "description": {
-      "translate": "advancements.dml-refabricated.dml.description"
+      "translate": "advancements.dml-backported.dml.description"
     },
-    "background": "dml-refabricated:textures/block/machine_casing_outer.png"
+    "background": "dml-backported:textures/block/machine_casing_outer.png"
   },
   "criteria": {
     "checkInv": {
@@ -17,7 +17,7 @@
       "conditions": {
         "items": [
           {
-            "items": ["dml-refabricated:soot_redstone"]
+            "items": ["dml-backported:soot_redstone"]
           }
         ]
       }

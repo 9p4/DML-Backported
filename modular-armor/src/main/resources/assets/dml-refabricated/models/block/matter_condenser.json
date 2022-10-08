@@ -1,8 +1,8 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "dml-refabricated:block/color_stripes",
-		"particle": "dml-refabricated:block/color_stripes"
+		"0": "dml-backported:block/color_stripes",
+		"particle": "dml-backported:block/color_stripes"
 	},
 	"elements": [
 		{

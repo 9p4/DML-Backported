@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dml-refabricated:trial_keystone"
+          "name": "dml-backported:trial_keystone"
         }
       ],
       "conditions": [

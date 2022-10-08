@@ -9,11 +9,11 @@
       "item": "minecraft:obsidian"
     },
     "R": {
-      "item": "dml-refabricated:soot_redstone"
+      "item": "dml-backported:soot_redstone"
     }
   },
   "result": {
-    "item": "dml-refabricated:soot_plate",
+    "item": "dml-backported:soot_plate",
     "count": 4
   }
 }

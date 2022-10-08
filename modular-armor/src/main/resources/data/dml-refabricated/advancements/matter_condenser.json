@@ -1,23 +1,23 @@
 {
   "display": {
     "icon": {
-      "item": "dml-refabricated:matter_condenser"
+      "item": "dml-backported:matter_condenser"
     },
     "title": {
-      "translate": "advancements.dml-refabricated.matter_condenser"
+      "translate": "advancements.dml-backported.matter_condenser"
     },
     "description": {
-      "translate": "advancements.dml-refabricated.matter_condenser.description"
+      "translate": "advancements.dml-backported.matter_condenser.description"
     }
   },
-  "parent": "dml-refabricated:glitch_armor",
+  "parent": "dml-backported:glitch_armor",
   "criteria": {
     "checkInv": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": ["dml-refabricated:matter_condenser"]
+            "items": ["dml-backported:matter_condenser"]
           }
         ]
       }

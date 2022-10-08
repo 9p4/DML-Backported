@@ -16,14 +16,14 @@
       "item": "minecraft:repeater"
     },
     "S": {
-      "item": "dml-refabricated:soot_redstone"
+      "item": "dml-backported:soot_redstone"
     },
     "G": {
       "item": "minecraft:gold_ingot"
     }
   },
   "result": {
-    "item": "dml-refabricated:data_model",
+    "item": "dml-backported:data_model",
     "count": 1
   }
 }

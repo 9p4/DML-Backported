@@ -1,15 +1,15 @@
 {
   "schemaVersion": 1,
-  "id": "dml-refabricated-modular-armor",
+  "id": "dml-backported-modular-armor",
   "version": "${version}",
-  "name": "DML: Refabricated - Glitch Armor",
-  "description": "DML: Refabricated's Glitch Armor'",
-  "icon": "assets/dml-refabricated/textures/item/glitch_chestplate.png",
-  "authors": ["NathanPB", "Luligabi"],
+  "name": "DML: Backported - Glitch Armor",
+  "description": "DML: Backported's Glitch Armor'",
+  "icon": "assets/dml-backported/textures/item/glitch_chestplate.png",
+  "authors": ["NathanPB", "Luligabi", "9p4"],
   "contact": {
-    "homepage": "https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-refabricated",
-    "repo": "https://github.com/CafeteriaGuild/DeepMobLearning-Refabricated",
-    "issues": "https://github.com/CafeteriaGuild/DeepMobLearning-Refabricated/issues"
+    "homepage": "https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-backported",
+    "repo": "https://github.com/9p4/DML-Backported",
+    "issues": "https://github.com/9p4/DML-Backported/issues"
   },
   "license": "LGPL-v3",
   "environment": "*",
@@ -17,15 +17,15 @@
     "main": ["dev.nathanpb.dml.modular_armor.InitKt::init"],
     "client": ["dev.nathanpb.dml.modular_armor.InitClientKt::initClient"]
   },
-  "mixins": ["mixins.dml-refabricated-modular-armor.json"],
+  "mixins": ["mixins.dml-backported-modular-armor.json"],
   "depends": {
-    "dml-refabricated": "${version}",
-    "dml-refabricated-base": "${version}"
+    "dml-backported": "${version}",
+    "dml-backported-base": "${version}"
   },
   "suggests": {},
   "custom": {
     "modmenu": {
-      "parent": "dml-refabricated"
+      "parent": "dml-backported"
     }
   }
 }

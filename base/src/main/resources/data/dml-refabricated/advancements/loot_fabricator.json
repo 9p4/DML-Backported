@@ -1,23 +1,23 @@
 {
   "display": {
     "icon": {
-      "item": "dml-refabricated:loot_fabricator"
+      "item": "dml-backported:loot_fabricator"
     },
     "title": {
-      "translate": "advancements.dml-refabricated.loot_fabricator"
+      "translate": "advancements.dml-backported.loot_fabricator"
     },
     "description": {
-      "translate": "advancements.dml-refabricated.loot_fabricator.description"
+      "translate": "advancements.dml-backported.loot_fabricator.description"
     }
   },
-  "parent": "dml-refabricated:pristine_matter",
+  "parent": "dml-backported:pristine_matter",
   "criteria": {
     "checkInv": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": ["dml-refabricated:loot_fabricator"]
+            "items": ["dml-backported:loot_fabricator"]
           }
         ]
       }

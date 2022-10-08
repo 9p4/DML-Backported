@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "dml-refabricated:matter_condenser"
+          "name": "dml-backported:matter_condenser"
         }
       ],
       "conditions": [

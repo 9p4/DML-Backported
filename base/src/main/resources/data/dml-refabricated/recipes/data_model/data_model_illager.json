@@ -7,7 +7,7 @@
   ],
   "key": {
     "D": {
-      "item": "dml-refabricated:data_model"
+      "item": "dml-backported:data_model"
     },
     "T": {
       "item": "minecraft:totem_of_undying"
@@ -17,7 +17,7 @@
     }
   },
   "result": {
-    "item": "dml-refabricated:data_model_illager",
+    "item": "dml-backported:data_model_illager",
     "count": 1
   }
 }

@@ -1,5 +1,5 @@
 {
-  "type": "dml-refabricated:trial_keystone",
+  "type": "dml-backported:trial_keystone",
   "tier": 0,
   "category": "OCEAN",
   "spawnRates": {
@@ -7,7 +7,7 @@
   },
   "rewards": [
     {
-      "item": "dml-refabricated:pristine_matter_ocean",
+      "item": "dml-backported:pristine_matter_ocean",
       "count": 1
     }
   ]

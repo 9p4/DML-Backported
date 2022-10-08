@@ -1,23 +1,23 @@
 {
   "display": {
     "icon": {
-      "item": "dml-refabricated:glitch_ingot"
+      "item": "dml-backported:glitch_ingot"
     },
     "title": {
-      "translate": "advancements.dml-refabricated.glitch_ingot"
+      "translate": "advancements.dml-backported.glitch_ingot"
     },
     "description": {
-      "translate": "advancements.dml-refabricated.glitch_ingot.description"
+      "translate": "advancements.dml-backported.glitch_ingot.description"
     }
   },
-  "parent": "dml-refabricated:trial",
+  "parent": "dml-backported:trial",
   "criteria": {
     "checkInv": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [
           {
-            "items": ["dml-refabricated:glitch_ingot"]
+            "items": ["dml-backported:glitch_ingot"]
           }
         ]
       }

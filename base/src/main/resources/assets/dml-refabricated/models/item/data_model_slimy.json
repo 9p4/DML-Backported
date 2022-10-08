@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "dml-refabricated:item/data_model_slimy"
+    "layer0": "dml-backported:item/data_model_slimy"
   }
 }

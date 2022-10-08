@@ -1,5 +1,5 @@
 {
-  "type": "dml-refabricated:trial_keystone",
+  "type": "dml-backported:trial_keystone",
   "tier": 0,
   "category": "ILLAGER",
   "spawnRates": {
@@ -9,7 +9,7 @@
   },
   "rewards": [
     {
-      "item": "dml-refabricated:pristine_matter_illager",
+      "item": "dml-backported:pristine_matter_illager",
       "count": 1
     }
   ]

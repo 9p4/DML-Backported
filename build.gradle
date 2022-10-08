@@ -22,7 +22,7 @@ def RELEASE_TYPE =
 
 @SuppressWarnings('GrMethodMayBeStatic')
 def getChangeLog() {
-    return "https://github.com/CafeteriaGuild/DeepMobLearning-Refabricated/releases/tag/${URLEncoder.encode(project.mod_version, "utf-8")}"
+    return "https://github.com/9p4/DML-Backported/releases/tag/${URLEncoder.encode(project.mod_version, "utf-8")}"
 }
 
 

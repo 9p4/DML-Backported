@@ -7,7 +7,7 @@
   ],
   "key": {
     "D": {
-      "item": "dml-refabricated:data_model"
+      "item": "dml-backported:data_model"
     },
     "O": {
       "item": "minecraft:obsidian"
@@ -23,7 +23,7 @@
     }
   },
   "result": {
-    "item": "dml-refabricated:data_model_nether",
+    "item": "dml-backported:data_model_nether",
     "count": 1
   }
 }
