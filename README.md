@@ -1,4 +1,4 @@
-# Deep Mob Learning: Backported <img src="https://raw.githubusercontent.com/9p4/DML-Backported/main/mod_cover.png" align="right" width="160"/>
+# Deep Mob Learning: Backported <img src="https://raw.githubusercontent.com/9p4/DML-Backported/1.18.2-backport/mod_cover.png" align="right" width="160"/>
 
 [![Fabric API](https://images2.imgbox.com/8e/38/bfInI5qv_o.png)](https://www.curseforge.com/minecraft/mc-mods/fabric-api) [![Fabric Language Kotlin](https://images2.imgbox.com/e6/72/9pHQB5ZC_o.png)](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin)
 
