@@ -1,4 +1,4 @@
-# Deep Mob Learning: Backported <img src="https://imgur.com/Yk9wXR7.png" align="right" width="160"/>
+# Deep Mob Learning: Backported <img src="https://raw.githubusercontent.com/9p4/DML-Backported/main/mod_cover.png" align="right" width="160"/>
 
 [![Fabric API](https://images2.imgbox.com/8e/38/bfInI5qv_o.png)](https://www.curseforge.com/minecraft/mc-mods/fabric-api) [![Fabric Language Kotlin](https://images2.imgbox.com/e6/72/9pHQB5ZC_o.png)](https://www.curseforge.com/minecraft/mc-mods/fabric-language-kotlin)
 
@@ -39,8 +39,6 @@ Absolutely! You can download the mod on [Curseforge](https://www.curseforge.com/
 ## What about Fabric 1.19+?
 
 Check out the [Deep Mob Learning: Refabricated](https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-refabricated) project (which the current project you are looking at right now is forked from).
-
-About Deep Mob Learning: **Refabricated**, unfortunately I don't plan to support Forge by myself. But if you want to, take some words with [Cafeteria](https://discord.com/invite/G4PjhEf) and [the original author of the mod](#xt9s-version) and you should be fine.
 
 ## Setting up dev env
 
