@@ -1,6 +1,6 @@
 package io.github.projectet.dmlSimulacrum;
 
-import dev.nathanpb.dml.item.ItemsKt;
+import net.ersei.dml.item.ItemsKt;
 import io.github.projectet.dmlSimulacrum.block.SimulationChamber;
 import io.github.projectet.dmlSimulacrum.block.entity.SimulationChamberEntity;
 import io.github.projectet.dmlSimulacrum.config.Config;

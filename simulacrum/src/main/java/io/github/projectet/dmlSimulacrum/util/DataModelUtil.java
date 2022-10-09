@@ -1,13 +1,13 @@
 package io.github.projectet.dmlSimulacrum.util;
 
-import dev.nathanpb.dml.DeepMobLearningKt;
-import dev.nathanpb.dml.data.DataModelDataKt;
-import dev.nathanpb.dml.enums.DataModelTier;
-import dev.nathanpb.dml.enums.EntityCategory;
-import dev.nathanpb.dml.item.ItemDataModel;
-import dev.nathanpb.dml.ModConfig;
+import net.ersei.dml.DeepMobLearningKt;
+import net.ersei.dml.data.DataModelDataKt;
+import net.ersei.dml.enums.DataModelTier;
+import net.ersei.dml.enums.EntityCategory;
+import net.ersei.dml.item.ItemDataModel;
+import net.ersei.dml.ModConfig;
 
-import dev.nathanpb.dml.item.ItemPristineMatter;
+import net.ersei.dml.item.ItemPristineMatter;
 import io.github.projectet.dmlSimulacrum.dmlSimulacrum;
 import io.github.projectet.dmlSimulacrum.enums.MatterType;
 import net.minecraft.item.Item;

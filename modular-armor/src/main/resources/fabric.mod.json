@@ -14,8 +14,8 @@
   "license": "LGPL-v3",
   "environment": "*",
   "entrypoints": {
-    "main": ["dev.nathanpb.dml.modular_armor.InitKt::init"],
-    "client": ["dev.nathanpb.dml.modular_armor.InitClientKt::initClient"]
+    "main": ["net.ersei.dml.modular_armor.InitKt::init"],
+    "client": ["net.ersei.dml.modular_armor.InitClientKt::initClient"]
   },
   "mixins": ["mixins.dml-backported-modular-armor.json"],
   "depends": {

@@ -1,7 +1,7 @@
 package io.github.projectet.dmlSimulacrum.gui;
 
 import com.mojang.blaze3d.systems.RenderSystem;
-import dev.nathanpb.dml.enums.DataModelTier;
+import net.ersei.dml.enums.DataModelTier;
 import io.github.projectet.dmlSimulacrum.block.entity.SimulationChamberEntity;
 import io.github.projectet.dmlSimulacrum.dmlSimulacrum;
 import io.github.projectet.dmlSimulacrum.util.Animation;

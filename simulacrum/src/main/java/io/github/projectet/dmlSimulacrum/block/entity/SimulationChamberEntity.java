@@ -1,7 +1,7 @@
 package io.github.projectet.dmlSimulacrum.block.entity;
 
-import dev.nathanpb.dml.item.ItemDataModel;
-import dev.nathanpb.dml.item.ItemPristineMatter;
+import net.ersei.dml.item.ItemDataModel;
+import net.ersei.dml.item.ItemPristineMatter;
 import io.github.projectet.dmlSimulacrum.dmlSimulacrum;
 import io.github.projectet.dmlSimulacrum.gui.SimulationChamberScreenHandler;
 import io.github.projectet.dmlSimulacrum.inventory.ImplementedInventory;

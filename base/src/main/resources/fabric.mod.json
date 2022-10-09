@@ -13,9 +13,9 @@
   "license": "LGPL-v3",
   "environment": "*",
   "entrypoints": {
-    "main": ["dev.nathanpb.dml.DeepMobLearningKt::init"],
-    "client": ["dev.nathanpb.dml.DeepMobLearningKt::initClient"],
-    "rei_client": ["dev.nathanpb.dml.compat.rei.ReiPlugin"]
+    "main": ["net.ersei.dml.DeepMobLearningKt::init"],
+    "client": ["net.ersei.dml.DeepMobLearningKt::initClient"],
+    "rei_client": ["net.ersei.dml.compat.rei.ReiPlugin"]
   },
   "mixins": ["mixins.dml-backported-base.json"],
   "depends": {

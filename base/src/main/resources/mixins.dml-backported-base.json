@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "dev.nathanpb.dml.mixin",
+  "package": "net.ersei.dml.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "BowItemMixin",

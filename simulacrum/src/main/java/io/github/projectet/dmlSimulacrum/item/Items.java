@@ -1,6 +1,6 @@
 package io.github.projectet.dmlSimulacrum.item;
 
-import dev.nathanpb.dml.item.ItemsKt;
+import net.ersei.dml.item.ItemsKt;
 import io.github.projectet.dmlSimulacrum.dmlSimulacrum;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.minecraft.item.Item;

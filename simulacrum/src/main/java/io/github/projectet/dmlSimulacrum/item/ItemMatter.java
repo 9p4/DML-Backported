@@ -1,6 +1,6 @@
 package io.github.projectet.dmlSimulacrum.item;
 
-import dev.nathanpb.dml.utils.RenderUtils;
+import net.ersei.dml.utils.RenderUtils;
 import net.minecraft.client.item.TooltipContext;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;

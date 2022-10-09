@@ -1,6 +1,6 @@
 {
   "required": true,
-  "package": "dev.nathanpb.dml.modular_armor.mixin",
+  "package": "net.ersei.dml.modular_armor.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
     "BowItemMixin",

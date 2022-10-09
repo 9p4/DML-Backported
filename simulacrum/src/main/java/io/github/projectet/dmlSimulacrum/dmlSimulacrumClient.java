@@ -1,7 +1,7 @@
 package io.github.projectet.dmlSimulacrum;
 
-import dev.nathanpb.dml.item.ItemDataModel;
-import dev.nathanpb.dml.utils.RenderUtils;
+import net.ersei.dml.item.ItemDataModel;
+import net.ersei.dml.utils.RenderUtils;
 import io.github.projectet.dmlSimulacrum.gui.SimulationChamberScreen;
 import io.github.projectet.dmlSimulacrum.gui.SimulationChamberScreenHandler;
 import io.github.projectet.dmlSimulacrum.util.DataModelUtil;
