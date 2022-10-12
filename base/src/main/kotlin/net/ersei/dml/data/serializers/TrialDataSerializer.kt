@@ -20,7 +20,7 @@
 package net.ersei.dml.data.serializers
 
 import net.ersei.dml.data.TrialData
-import dev.nathanpb.ktdatatag.serializer.DataSerializer
+import net.ersei.ktdatatag.serializer.DataSerializer
 import net.minecraft.nbt.NbtCompound
 
 class TrialDataSerializer : DataSerializer<TrialData> {

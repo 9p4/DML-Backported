@@ -52,6 +52,13 @@ allprojects {
     repositories {
         maven { url = "https://jitpack.io/" }
         maven { url = "https://maven.cafeteria.dev/" }
+		maven {
+			url = "https://maven.pkg.github.com/9p4/KtDataTagLib"
+			credentials {
+				username "9p4"
+				password "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" // Given by my own generosity please don't abuse :)
+			}
+		}
     }
 
     dependencies {
@@ -61,8 +68,8 @@ allprojects {
         modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
         modImplementation "net.fabricmc:fabric-language-kotlin:${project.fabric_kotlin_version}"
 
-        modApi("com.github.CafeteriaGuild:KtDataTagLib:${project.ktdatataglib_version}")
-        include("com.github.CafeteriaGuild:KtDataTagLib:${project.ktdatataglib_version}")
+        modApi("net.ersei:ktdatataglib:${project.ktdatataglib_version}")
+        include("net.ersei:ktdatataglib:${project.ktdatataglib_version}")
     }
 
     jar {

@@ -1,6 +1,6 @@
 package net.ersei.dml.data.serializers
 
-import dev.nathanpb.ktdatatag.serializer.DataSerializer
+import net.ersei.ktdatatag.serializer.DataSerializer
 import net.minecraft.inventory.Inventories
 import net.minecraft.item.ItemStack
 import net.minecraft.nbt.NbtCompound

@@ -24,9 +24,9 @@ import net.ersei.dml.data.serializers.TrialAffixListSerializer
 import net.ersei.dml.enums.DataModelTier
 import net.ersei.dml.enums.EntityCategory
 import net.ersei.dml.utils.takeOrNull
-import dev.nathanpb.ktdatatag.data.MutableCompoundData
-import dev.nathanpb.ktdatatag.serializer.EnumSerializer
-import dev.nathanpb.ktdatatag.serializer.Serializers
+import net.ersei.ktdatatag.data.MutableCompoundData
+import net.ersei.ktdatatag.serializer.EnumSerializer
+import net.ersei.ktdatatag.serializer.Serializers
 import net.minecraft.item.ItemStack
 import net.minecraft.nbt.NbtCompound
 

@@ -27,8 +27,8 @@ import net.ersei.dml.data.dataModel
 import net.ersei.dml.enums.DataModelTier
 import net.ersei.dml.item.ItemDataModel
 import net.ersei.dml.utils.takeOrNull
-import dev.nathanpb.ktdatatag.data.MutableCompoundData
-import dev.nathanpb.ktdatatag.serializer.Serializers
+import net.ersei.ktdatatag.data.MutableCompoundData
+import net.ersei.ktdatatag.serializer.Serializers
 import net.minecraft.item.ItemStack
 import kotlin.math.max
 

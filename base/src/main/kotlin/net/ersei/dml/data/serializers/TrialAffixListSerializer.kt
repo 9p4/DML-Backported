@@ -21,7 +21,7 @@ package net.ersei.dml.data.serializers
 
 import net.ersei.dml.trial.affix.core.TrialAffix
 import net.ersei.dml.trial.affix.core.TrialAffixRegistry
-import dev.nathanpb.ktdatatag.serializer.AbstractNbtListSerializer
+import net.ersei.ktdatatag.serializer.AbstractNbtListSerializer
 import net.minecraft.nbt.NbtString
 import net.minecraft.util.Identifier
 

@@ -24,8 +24,8 @@ import net.ersei.dml.NotDataModelException
 import net.ersei.dml.enums.DataModelTier
 import net.ersei.dml.enums.EntityCategory
 import net.ersei.dml.item.ItemDataModel
-import dev.nathanpb.ktdatatag.data.MutableCompoundData
-import dev.nathanpb.ktdatatag.serializer.Serializers
+import net.ersei.ktdatatag.data.MutableCompoundData
+import net.ersei.ktdatatag.serializer.Serializers
 import net.minecraft.item.ItemStack
 
 class DataModelData(val stack: ItemStack, val category: EntityCategory?) : MutableCompoundData(stack.orCreateNbt) {

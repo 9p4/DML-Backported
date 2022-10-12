@@ -23,9 +23,9 @@ import net.ersei.dml.data.serializers.TrialAffixListSerializer
 import net.ersei.dml.identifier
 import net.ersei.dml.trial.Trial
 import net.ersei.dml.trial.TrialState
-import dev.nathanpb.ktdatatag.data.MutableCompoundData
-import dev.nathanpb.ktdatatag.serializer.EnumSerializer
-import dev.nathanpb.ktdatatag.serializer.Serializers
+import net.ersei.ktdatatag.data.MutableCompoundData
+import net.ersei.ktdatatag.serializer.EnumSerializer
+import net.ersei.ktdatatag.serializer.Serializers
 import net.minecraft.nbt.NbtCompound
 
 class TrialData(tag: NbtCompound = NbtCompound()) : MutableCompoundData(tag) {

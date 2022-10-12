@@ -1,7 +1,7 @@
 package net.ersei.dml.data
 
 import net.ersei.dml.data.serializers.InventorySerializer
-import dev.nathanpb.ktdatatag.data.MutableCompoundData
+import net.ersei.ktdatatag.data.MutableCompoundData
 import net.minecraft.item.ItemStack
 import net.minecraft.util.collection.DefaultedList
 
