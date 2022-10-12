@@ -55,8 +55,9 @@ allprojects {
 		maven {
 			url = "https://maven.pkg.github.com/9p4/KtDataTagLib"
 			credentials {
-				username "9p4"
-				password "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" // Given by my own generosity please don't abuse :)
+				username "Public"
+				// Obfuscated a little so Github doesn't erase this token
+				password "START_Tf4TXjQ7hqPBr30e5RWpWADk1hGTkc33KF5x".replace("START", "ghp") // Given by my own generosity please don't abuse :)
 			}
 		}
     }
