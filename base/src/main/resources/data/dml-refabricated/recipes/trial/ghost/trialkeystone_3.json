@@ -1,0 +1,20 @@
+{
+  "type": "dml-refabricated:trial_keystone",
+  "tier": 3,
+  "category": "GHOST",
+  "spawnRates": {
+    ".*": 10,
+    "minecraft:phantom": 5,
+    "minecraft:vex": 5
+  },
+  "rewards": [
+    {
+      "item": "dml-refabricated:pristine_matter_ghost",
+      "count": 8
+    },
+    {
+      "item": "dml-refabricated:physically_condensed_matrix_fragment",
+      "count": 2
+    }
+  ]
+}

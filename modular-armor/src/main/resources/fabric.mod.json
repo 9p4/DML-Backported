@@ -4,7 +4,7 @@
   "version": "${version}",
   "name": "DML: Backported - Glitch Armor",
   "description": "DML: Backported's Glitch Armor'",
-  "icon": "assets/dml-backported/textures/item/glitch_chestplate.png",
+  "icon": "assets/dml-refabricated/textures/item/glitch_chestplate.png",
   "authors": ["NathanPB", "Luligabi", "9p4"],
   "contact": {
     "homepage": "https://www.curseforge.com/minecraft/mc-mods/deep-mob-learning-backported",
@@ -17,12 +17,11 @@
     "main": ["net.ersei.dml.modular_armor.InitKt::init"],
     "client": ["net.ersei.dml.modular_armor.InitClientKt::initClient"]
   },
-  "mixins": ["mixins.dml-backported-modular-armor.json"],
+  "mixins": ["mixins.dml-refabricated-modular-armor.json"],
   "depends": {
     "dml-backported": "${version}",
     "dml-backported-base": "${version}"
   },
-  "suggests": {},
   "custom": {
     "modmenu": {
       "parent": "dml-backported"

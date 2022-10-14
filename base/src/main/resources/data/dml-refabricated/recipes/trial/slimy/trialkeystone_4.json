@@ -1,0 +1,18 @@
+{
+  "type": "dml-refabricated:trial_keystone",
+  "tier": 4,
+  "category": "SLIMY",
+  "spawnRates": {
+    ".*": 1
+  },
+  "rewards": [
+    {
+      "item": "dml-refabricated:pristine_matter_slimy",
+      "count": 16
+    },
+    {
+      "item": "dml-refabricated:physically_condensed_matrix_fragment",
+      "count": 3
+    }
+  ]
+}

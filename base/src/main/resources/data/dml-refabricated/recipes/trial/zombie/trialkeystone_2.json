@@ -1,0 +1,18 @@
+{
+  "type": "dml-refabricated:trial_keystone",
+  "tier": 2,
+  "category": "ZOMBIE",
+  "spawnRates": {
+    ".*": 1
+  },
+  "rewards": [
+    {
+      "item": "dml-refabricated:pristine_matter_zombie",
+      "count": 4
+    },
+    {
+      "item": "dml-refabricated:physically_condensed_matrix_fragment",
+      "count": 1
+    }
+  ]
+}

@@ -36,7 +36,7 @@ class LootFabricatorScreenHandlerFactory(
    private val handlerFactory: (Int, PlayerInventory, ScreenHandlerContext)->ScreenHandler
    ) : ExtendedScreenHandlerFactory {
 
-    override fun getDisplayName() = TranslatableText(BLOCK_LOOT_FABRICATOR.translationKey)//TranslatableText("block.dml-backported.loot_fabricator")
+    override fun getDisplayName() = TranslatableText(BLOCK_LOOT_FABRICATOR.translationKey)//TranslatableText("block.dml-refabricated.loot_fabricator")
 
     override fun createMenu(syncId: Int, inv: PlayerInventory, player: PlayerEntity?): ScreenHandler? {
         return handlerFactory(syncId, inv, ScreenHandlerContext.create(inv.player.world, pos))

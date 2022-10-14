@@ -1,0 +1,20 @@
+{
+  "type": "dml-refabricated:trial_keystone",
+  "tier": 2,
+  "category": "NETHER",
+  "spawnRates": {
+    ".*": 10,
+    "minecraft:wither_skeleton": 2,
+    "minecraft:hoglin": 2
+  },
+  "rewards": [
+    {
+      "item": "dml-refabricated:pristine_matter_nether",
+      "count": 4
+    },
+    {
+      "item": "dml-refabricated:physically_condensed_matrix_fragment",
+      "count": 1
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "type": "dml-refabricated:trial_keystone",
+  "tier": 3,
+  "category": "ILLAGER",
+  "spawnRates": {
+    ".*": 10,
+    "minecraft:evoker": 5,
+    "minecraft:ravager": 3
+  },
+  "rewards": [
+    {
+      "item": "dml-refabricated:pristine_matter_illager",
+      "count": 8
+    },
+    {
+      "item": "dml-refabricated:physically_condensed_matrix_fragment",
+      "count": 2
+    }
+  ]
+}

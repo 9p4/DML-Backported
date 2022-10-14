@@ -1,0 +1,16 @@
+{
+  "type": "dml-refabricated:trial_keystone",
+  "tier": 0,
+  "category": "END",
+  "spawnRates": {
+    ".*": 10,
+    "minecraft:shulker": 3,
+    "minecraft:endermite": 2
+  },
+  "rewards": [
+    {
+      "item": "dml-refabricated:pristine_matter_end",
+      "count": 1
+    }
+  ]
+}

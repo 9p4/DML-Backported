@@ -1,0 +1,17 @@
+{
+  "type": "dml-refabricated:trial_keystone",
+  "tier": 1,
+  "category": "OVERWORLD",
+  "spawnRates": {
+    ".*": 10,
+    "minecraft:enderman": 1,
+    "minecraft:creeper": 2,
+    "minecraft:witch": 2
+  },
+  "rewards": [
+    {
+      "item": "dml-refabricated:pristine_matter_overworld",
+      "count": 2
+    }
+  ]
+}

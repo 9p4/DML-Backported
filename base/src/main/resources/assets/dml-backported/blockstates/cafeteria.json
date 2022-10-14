@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "dml-backported:block/cafeteria" },
-    "facing=east":  { "model": "dml-backported:block/cafeteria", "y":  90},
-    "facing=south": { "model": "dml-backported:block/cafeteria", "y": 180 },
-    "facing=west":  { "model": "dml-backported:block/cafeteria", "y": 270 }
-  }
-}

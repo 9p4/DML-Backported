@@ -17,11 +17,10 @@
     "client": ["net.ersei.dml.DeepMobLearningKt::initClient"],
     "rei_client": ["net.ersei.dml.compat.rei.ReiPlugin"]
   },
-  "mixins": ["mixins.dml-backported-base.json"],
+  "mixins": ["mixins.dml-refabricated-base.json"],
   "depends": {
     "dml-backported": "${version}"
   },
-  "suggests": {},
   "custom": {
     "modmenu": {
       "parent": "dml-backported"

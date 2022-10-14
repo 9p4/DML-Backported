@@ -57,7 +57,7 @@ public class DamageSourceMixin {
                     .anyMatch((context) -> effect.getCategory() == context.getDataModel().getCategory() && effect.acceptTier(context.getTier()));
                 if (any) {
                     cir.setReturnValue(new TranslatableText(
-                        "death.dml-backported.starvedWithPlenty",
+                        "death.dml-refabricated.starvedWithPlenty",
                         entity.getDisplayName()
                     ));
                     cir.cancel();

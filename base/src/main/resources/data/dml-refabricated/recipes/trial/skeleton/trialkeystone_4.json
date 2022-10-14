@@ -1,0 +1,19 @@
+{
+  "type": "dml-refabricated:trial_keystone",
+  "tier": 4,
+  "category": "SKELETON",
+  "spawnRates": {
+    ".*": 10,
+    "minecraft:wither_skeleton": 4
+  },
+  "rewards": [
+    {
+      "item": "dml-refabricated:pristine_matter_skeleton",
+      "count": 16
+    },
+    {
+      "item": "dml-refabricated:physically_condensed_matrix_fragment",
+      "count": 3
+    }
+  ]
+}

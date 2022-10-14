@@ -1,7 +1,0 @@
-{
-  "type": "dml-backported:loot_fabricator",
-  "input": {
-    "item": "dml-backported:pristine_matter_nether"
-  },
-  "category": "NETHER"
-}

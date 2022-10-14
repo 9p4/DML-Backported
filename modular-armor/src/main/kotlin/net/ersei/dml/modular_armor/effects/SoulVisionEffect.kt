@@ -53,7 +53,7 @@ class SoulVisionEffect : ModularEffect<ModularEffectTriggerPayload>(
     config.glitchArmor.costs::soulVision
 ) {
 
-    override val name = TranslatableText("effect.dml-backported.soul_vision")
+    override val name = TranslatableText("effect.dml-refabricated.soul_vision")
 
     override fun registerEvents() {
         if (FabricLoader.getInstance().environmentType == EnvType.CLIENT) {

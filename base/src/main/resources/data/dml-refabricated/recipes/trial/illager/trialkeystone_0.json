@@ -1,0 +1,16 @@
+{
+  "type": "dml-refabricated:trial_keystone",
+  "tier": 0,
+  "category": "ILLAGER",
+  "spawnRates": {
+    ".*": 10,
+    "minecraft:evoker": 0,
+    "minecraft:ravager": 0
+  },
+  "rewards": [
+    {
+      "item": "dml-refabricated:pristine_matter_illager",
+      "count": 1
+    }
+  ]
+}

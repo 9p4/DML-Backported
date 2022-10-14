@@ -24,12 +24,5 @@
   "suggests": {
     "patchouli": "*",
     "flamingo": "*"
-  },
-  "custom": {
-    "modmenu": {
-      "links": {
-        "modmenu.discord": "https://discord.gg/G4PjhEf"
-      }
-    }
   }
 }

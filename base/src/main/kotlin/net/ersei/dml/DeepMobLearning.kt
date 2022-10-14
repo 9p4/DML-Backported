@@ -50,14 +50,15 @@ import java.nio.file.Files
 import kotlin.random.Random
 import kotlin.random.nextInt
 
-const val MOD_ID = "dml-backported"
+const val MOD_ID = "dml-refabricated"
+const val BACKPORTED_MOD_ID = "dml-backported"
 
-val LOGGER = LoggerFactory.getLogger(MOD_ID)
+val LOGGER = LoggerFactory.getLogger(BACKPORTED_MOD_ID)
 
 val config: ModConfig by lazy {
     val parser = JsonParser()
     val gson = GsonBuilder().setPrettyPrinting().create()
-    val configFile = File("${FabricLoader.getInstance().configDir}${File.separator}$MOD_ID.json")
+    val configFile = File("${FabricLoader.getInstance().configDir}${File.separator}$BACKPORTED_MOD_ID.json")
     var finalConfig: ModConfig
     LOGGER.info("Trying to read config file...")
     try {

@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "dml-backported:block/matter_condenser" },
-    "facing=east":  { "model": "dml-backported:block/matter_condenser", "y":  90},
-    "facing=south": { "model": "dml-backported:block/matter_condenser", "y": 180 },
-    "facing=west":  { "model": "dml-backported:block/matter_condenser", "y": 270 }
-  }
-}

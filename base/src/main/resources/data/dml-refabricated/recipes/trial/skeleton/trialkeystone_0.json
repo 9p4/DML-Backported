@@ -1,0 +1,15 @@
+{
+  "type": "dml-refabricated:trial_keystone",
+  "tier": 0,
+  "category": "SKELETON",
+  "spawnRates": {
+    ".*": 10,
+    "minecraft:wither_skeleton": 0
+  },
+  "rewards": [
+    {
+      "item": "dml-refabricated:pristine_matter_skeleton",
+      "count": 1
+    }
+  ]
+}

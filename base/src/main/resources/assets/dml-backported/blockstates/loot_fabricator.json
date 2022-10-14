@@ -1,8 +1,0 @@
-{
-  "variants": {
-    "facing=north": { "model": "dml-backported:block/loot_fabricator" },
-    "facing=east":  { "model": "dml-backported:block/loot_fabricator", "y":  90},
-    "facing=south": { "model": "dml-backported:block/loot_fabricator", "y": 180 },
-    "facing=west":  { "model": "dml-backported:block/loot_fabricator", "y": 270 }
-  }
-}
