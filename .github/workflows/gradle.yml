@@ -5,9 +5,9 @@ name: Artifact Generation
 
 on:
   push:
-    branches: [ main, develop, 1.18.2 ]
+    branches: [ main, develop, 1.18.2-backport ]
   pull_request:
-    branches: [ main, develop, 1.18.2 ]
+    branches: [ main, develop, 1.18.2-backport ]
 
 jobs:
   build:
